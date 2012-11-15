@@ -6,3 +6,5 @@ branches:
 
 notifications:
   email: false
+
+script: mvn -f AndroidAnnotations/pom.xml clean test
